@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="!smoo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Registration|MWECAU-ICT CLUB</title>
+</head>
+
+<body class="bg-white list-none font-paragraph">
+
+    <section class="bg-primary text-mobilefont h-auto md:text-lg md:h-auto">
+        <nav
+            class="pt-2 pb-1 pl-5 pr-5 flex flex-row justify-between md:pt-8 md:pb-8 md:pl-40 md:pr-40 md:flex md:flex-row md:justify-between items-center">
+            <div class="w-16 h-20 md:w-32 md:h-20 "
+                style="background-image: url('../images/club-logo.png'); background-size: contain; background-position: center; background-repeat: no-repeat;">
+            </div>
+            <div class="hidden h-vdo left-0 absolute top-24 text-center pb-8 bg-primary  flex-col gap-16 right-0 text-white md:h-0 md:top-0 md:relative md:flex md:flex-row md:gap-4 md:justify-between md:w-3/5 md:text-white md:text-center"
+                id="nav">
+                <a href="../index.html" class="p-2" id="link">
+                    <li>Home</li>
+                </a>
+                <a href="../pages/about.html" class="p-2">
+                    <li>About</li>
+                </a>
+                <a href="../pages/departments.html" class="p-2">
+                    <li>Departments</li>
+                </a>
+                <a href="../pages/contact.html" class="p-2">
+                    <li>Contacts</li>
+                </a>
+                <div class="flex flex-row gap-4 justify-center mb-8">
+                    <a href="./loginform.html">
+                        <button
+                            class="bg-blue-700 p-2 rounded-md w-32 cursor-pointer hover:bg-white hover:text-blue-700">Login</button>
+                    </a>
+                    <a href="./registration-form.html">
+                        <button
+                            class="bg-blue-700 p-2 rounded-md w-32 cursor-pointer  hover:bg-white hover:text-blue-700">Register</button>
+                    </a>
+                </div>
+
+            </div>
+            <div class=" text-white text-2xl cursor-pointer block md:hidden" id="menubtn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="hidden text-white text-2xl cursor-pointer md:hidden" id="closebtn">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </nav>
+    </section>
+
+    <section class="m-8 md:mt-16 md:mb-4 md:ml-40 md:mr-60">
+            <div class="w-full mr-4 md:w-full md:ml-40 md:mr-60">
+                <h1 class="text-center mb-16 text-blue-700 text-2xl md:text-3xl md:text-left font-bold leading-tight font-heading md:mb-16">
+                    Hello,<br>Register to your Account</h1>
+                    <form class="grid grid-cols-1 gap-6 md:grid md:grid-cols-2 md:gap-8 md:mr-96 md:text-lg">
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Registration Number</label>
+                            <input type="text" class="bg-slate-100 h-14 rounded-md pl-2 focus:outline-none w-full">
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Full Name</label>
+                            <input type="text" class="bg-slate-100 h-14 rounded-md pl-2 focus:outline-none w-full">
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>E-mail</label>
+                            <input type="email" class="bg-slate-100 h-14 rounded-md pl-2 focus:outline-none w-full">
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Course</label>
+                            <select class="bg-slate-100 h-14 rounded-md p-2 focus:outline-none w-full">
+                                <option>BSCs</option>
+                                <option>BAGEN</option>
+                                <option>BIOLOGY ICT</option>
+                                <option>CHEMISTRY ICT</option>
+                                <option>STATISTICS ICT</option>
+                                <option>PHYSICS ICT</option>
+                            </select>
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Category</label>
+                            <select class="bg-slate-100 h-14 rounded-md p-2 focus:outline-none w-full">
+                                <option>Programming</option>
+                                <option>CyberSecurity</option>
+                                <option>Graphics Designing</option>
+                                <option>Networking</option>
+                                <option>Computer Maintanance</option>
+                                <option>Robotics and AI</option>
+                            </select>
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Password</label>
+                            <input type="password" class="bg-slate-100 h-14 rounded-md pl-2 focus:outline-none w-full">
+
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Comfirm Password</label>
+                            <input type="password" class="bg-slate-100 h-14 rounded-md pl-2 focus:outline-none w-full">
+                        </div>
+                        <div></div>
+                        <button class="bg-blue-700 h-12 rounded-md text-white w-1/4 md:text-lg">Submit</button>
+                    </form>
+                <!-- <form class="md:grid md:grid-cols-2 gap-4">
+                    <div>
+                        <input type="text" placeholder="Reg.No" class="bg-slate-100 h-14 rounded-md pl-2 border-x-4 border-blue-700 focus:outline-none">
+                        <input type="text" placeholder="Password" class="bg-slate-100 h-14 rounded-md pl-2 border-x-4 border-blue-700 focus:outline-none">
+                    </div>
+                    
+                    <input type="password" placeholder="Password" class="bg-slate-100 h-14 rounded-md pl-2 border-x-4 border-blue-700 focus:outline-none">
+                    <input type="password" placeholder="Password" class="bg-slate-100 h-14 rounded-md pl-2 border-x-4 border-blue-700 focus:outline-none">
+                    <input type="password" placeholder="Password" class="bg-slate-100 h-14 rounded-md pl-2 border-x-4 border-blue-700 focus:outline-none">
+                    <button class="text-mobilefont h-14 rounded-md pl-2 w-w bg-blue-700 focus:outline-none text-white md:text-lg">log In</button>
+                    <span class="md:text-lg">Don't have an Account ? <a href="../forms/registration-form.html" class="text-blue-700">Register</a></span>
+                </form> -->
+
+            </div>
+    </section>
+
+    <footer class="hidden bg-primary text-white">
+        <div class="flex flex-col gap-2 pt-4 pb-4">
+            <span class="text-center md:text-lg md:font-heading">&copy; Copyright 2024</span>
+            <h1 class="text-center md:text-lg md:font-heading">All Rights Reserved</h1>
+            <span class="text-center md:text-lg md:font-heading">Designed and Developed By: E & S</span>
+        </div>
+    </footer>
+</body>
+<script>
+    document.getElementById("menubtn").addEventListener('click', () => {
+        document.getElementById("nav").style.display = 'block';
+        document.getElementById("menubtn").style.display = 'none';
+        document.getElementById("closebtn").style.display = 'block';
+    })
+    document.getElementById("closebtn").addEventListener('click', () => {
+        document.getElementById("nav").style.display = 'none';
+        document.getElementById("menubtn").style.display = 'block';
+        document.getElementById("closebtn").style.display = 'none';
+    })
+</script>
+
+</html>

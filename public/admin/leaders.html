@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="!smoo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Admin-Dashboard|MWECAU-ICT CLUB</title>
+</head>
+
+<body class="list-none font-paragraph bg-slate-200">
+    <section class="text-mobilefont md:text-lg">
+        <div class="md:flex md:flex-row md:w-full">
+            <div id="nav"
+                class="hidden absolute h-screen md:visible md:w-nav md:h-screen md:fixed bg-primary p-4 md:flex md:flex-col md:gap-4">
+                <h2 class="md:text-lg text-slate-300 font-bold">MENU</h2>
+                <div class="flex flex-col gap-8 mt-10 mb-10 md:flex md:flex-col md:gap-8 md:mt-4 md:mb-20">
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-tachometer-alt text-slate-400"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Dashboard</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                            <div>
+                                <i class="fas fa-graduation-cap text-blue-400"></i>
+                                <span
+                                    class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Members
+                                    Management</span>
+                            </div>
+                            <i class="fas fa-chevron-down  text-blue-700 text-lg"></i>
+                        </li>
+                        <div class="md:p-4 md:flex md:flex-col gap-4">
+                            <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                                <i class="fas fa-circle-notch text-xs text-blue-700"></i>
+                                <span
+                                    class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Register
+                                    Member</span>
+                            </li>
+                            <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                                <i class="fas fa-circle-notch text-xs  text-blue-700"></i>
+                                <span
+                                    class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">List
+                                    of
+                                    Member</span>
+                            </li>
+                            <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                                <i class="fas fa-circle-notch text-xs text-blue-700"></i>
+                                <span
+                                    class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Verify
+                                    Number</span>
+                            </li>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-calendar text-blue-400"></i>
+                            <span class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Events
+                                Management</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fa fa-book text-blue-400"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Resources
+                                Management</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                            <div>
+                                <i class="fas fa-users  text-blue-400"></i>
+                                <span
+                                    class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Divisions
+                                </span>
+                            </div>
+                            <i class="fas fa-chevron-down  text-blue-700 text-lg"></i>
+                        </li>
+                        <div class="md:p-4 md:flex md:flex-col gap-4">
+                            <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                                <i class="fas fa-circle-notch text-xs text-blue-700"></i>
+                                <span class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Add
+                                    /
+                                    Remove</span>
+                            </li>
+                            <li class="md:flex md:flex-row md:gap-4 items-center" id="Members">
+                                <i class="fas fa-circle-notch text-xs  text-blue-700"></i>
+                                <span
+                                    class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Admin
+                                    Permission</span>
+                            </li>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fa fa-message text-blue-400"></i>
+                            <span class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">New
+                                Messages</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-comments text-blue-400"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Discussion
+                                Forum</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-wallet text-blue-400"></i>
+                            <span class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Payment
+                                Details</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-sitemap text-blue-400"></i>
+                            <span class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Site
+                                Management</span>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-folder text-blue-400"></i>
+                            <span class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Print
+                                Document</span>
+                        </li>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-full ml-2 md:flex md:flex-col md:ml-left">
+                <div
+                    class="flex flex-row justify-between p-4 md:flex md:flex-row md:justify-between md:p-8 border-b-2 bg-blue-700 border-slate-100">
+                    <div class="md:flex md:flex-row md:gap-2 items-center">
+                        <h2 class="text-white font-bold"> Team Members </h2>
+                    </div>
+                </div>
+
+                <div class="my-16 mx-12 flex flex-col gap-4">
+                    <h2 class="md:font-bold md:text-2xl text-blue-700 md:font-heading">Register Team Members</h2>
+                    <hr class="w-20 h-1 bg-blue-700">
+                </div>
+
+
+                <div class="my-2 mx-8 borde p-4 rounded-lg">
+                    <select class="md:mb-10 bg-white p-2 rounded-sm outline-none">
+                        <option>General Leaders</option>
+                        <option>Department Of Programming</option>
+                        <option>Department Of CyberSecurity</option>
+                        <option>Department of Networking</option>
+                        <option>Department of AI and Robotics</option>
+                        <option>Department of Graphics Designing</option>
+                        <option>Department of Computer Networking</option>
+                    </select>
+                    <table border="1" class="w-full">
+                        <tr class="text-left h-16 m-2 bg-primary text-white">
+                            <th class="pl-2">Full Name</th>
+                            <th>Positioin</th>
+                            <th>Division</th>
+                            <th>Contacts</th>
+                            <th>Image</th>
+                            <th>Action</th>
+
+                        </tr>
+                        <tr class="flex-initial h-16 border-b-2 border-slate-500">
+                            <td class="text-blue-700 pl-2">Chair Person ICT CLUB </td>
+                            <td>Chair Person</td>
+                            <td>General</td>
+                            <td>+255 123 456 789</td>
+                            <td class="text-blue-900 font-bold">
+                            </td>
+                            <td class="items-center pt-4 pb-4 gap-8">
+                                <button class="bg-blue-800 w-full h-12 text-white rounded-md">Edit</button>
+                            </td>
+                        </tr>
+                        <tr class="flex-initial h-16 border-b-2 border-slate-500">
+                            <td class="text-blue-700 pl-2">Vice Chair Person ICT CLUB </td>
+                            <td>Vice Chair Person</td>
+                            <td>General</td>
+                            <td>+255 123 456 789</td>
+                            <td class="text-blue-900 font-bold">
+                            </td>
+                            <td class="items-center pt-4 pb-4 gap-8">
+                                <button class="bg-blue-800 w-full h-12 text-white rounded-md">Edit</button>
+                            </td>
+                        </tr>
+                        <tr class="flex-initial h-16 border-b-2 border-slate-500">
+                            <td class="text-blue-700 pl-2">Secretary ICT CLUB </td>
+                            <td>Secretary</td>
+                            <td>General</td>
+                            <td>+255 123 456 789</td>
+                            <td class="text-blue-900 font-bold">
+                            </td>
+                            <td class="items-center pt-4 pb-4 gap-8">
+                                <button class="bg-blue-800 w-full h-12 text-white rounded-md">Edit</button>
+                            </td>
+                        </tr>
+                        <tr class="flex-initial h-16 border-b-2 border-slate-500">
+                            <td class="text-blue-700 pl-2">Project Manager ICT CLUB </td>
+                            <td>Project Manager</td>
+                            <td>General</td>
+                            <td>+255 123 456 789</td>
+                            <td></td>
+                            <td class="items-center pt-4 pb-4 gap-8">
+                                <button class="bg-blue-800 w-full h-12 text-white rounded-md">Edit</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="md:mt-16">
+                        <form>
+                            <div class="md:grid md:grid-cols-3 md:gap-8">
+                                <div class="flex flex-col gap-2">
+                                    <label>Full Name:</label>
+                                    <input type="text" class="h-12 rounded-md outline-none bg-blue-200 pl-2">
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <label>Position:</label>
+                                    <select class="h-12 rounded-md outline-none bg-blue-200 pl-2">
+                                        <option>Chair person</option>
+                                        <option>Vice ChairPerson</option>
+                                        <option>Secretary</option>
+                                        <option>Project Manager</option>
+                                        <option>Head of Department</option>
+                                        <option>Assistance Head of Department</option>
+                                    </select>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <label>Divisions:</label>
+                                    <select class="h-12 rounded-md outline-none bg-blue-200 pl-2">
+                                        <option>General</option>
+                                        <option>Department Of Programming</option>
+                                        <option>Department Of CyberSecurity</option>
+                                        <option>Department of Networking</option>
+                                        <option>Department of AI and Robotics</option>
+                                        <option>Department of Graphics Designing</option>
+                                        <option>Department of Computer Networking</option>
+                                    </select>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <label>Phone Number:</label>
+                                    <input type="text" class="h-12 rounded-md outline-none bg-blue-200 pl-2">
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <label>Select Image:</label>
+                                    <input type="file" class="h-12 rounded-md outline-none bg-blue-200 pl-2">
+                                </div>
+                            </div>
+                            <button class="md:mt-8 bg-primary w-20 h-10 rounded-md text-white">Save</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-row justify-between p-2 md:mt-6 md:flex md:flex-row md:justify-between md:p-5 border-t-2 bg-white border-slate-100">
+                    <span class="text-center">Copyright &copy; 2025. Designed & Developed by <span
+                            class="text-blue-700">Said Hassan</span></span>
+                    <span class="text-center text-lg">All rights reserved</span>
+                </div>
+            </div>
+    </section>
+</body>
+<script>
+    document.getElementById("addbtn").addEventListener('click', () => {
+        document.getElementById("divisionadd").style.display = 'block';
+    })
+</script>
+
+</html>

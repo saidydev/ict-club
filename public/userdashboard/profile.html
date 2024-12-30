@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="!smoo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>User-profile|MWECAU-ICT CLUB</title>
+</head>
+
+<body class="list-none font-paragraph">
+    <section class="text-mobilefont md:text-lg">
+        <div class="md:flex md:flex-row md:w-full">
+            <div id="nav"
+                class="hidden absolute h-screen md:visible md:w-nav md:h-screen md:fixed bg-primary p-8 md:flex md:flex-col md:gap-4  md:border-x-slate-100">
+                <div class="w-full h-20 md:w-full md:h-20 bg-contain bg-no-repeat justify-center"
+                    style="background-image: url('../images/club-logo.png');"></div>
+                <div class="flex flex-col gap-8 mt-10 mb-10 md:flex md:flex-col md:gap-16 md:mt-20 md:mb-20">
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-tachometer-alt text-white"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Dashboard</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/profile.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-user  text-white"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Profile</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/announcement.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-bullhorn  text-white"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Announcement</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/resources.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-book  text-white"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Resources</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/forum.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-comments  text-white"></i>
+                            <span
+                                class="text-white text-mobilefont font-paragraph md:text-lg md:font-paragraph">Discussion
+                                Forum</span>
+                        </li>
+                    </a>
+                </div>
+                <div class="">
+                    <button class="bg-blue-700 text-white w-full h-14 rounded-md md:text-lg cursor-pointer">Log
+                        out</button>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-full ml-2 md:flex md:flex-col md:ml-72">
+                <div class="flex flex-row justify-between p-4 md:flex md:flex-row md:justify-between md:p-8 border-b-2 border-slate-100">
+                    <h2 class="text-2xl md:text-2xl font-bold text-blue-700 leading-tight font-heading">Mr. Said Hassan Besa</h2>
+                    <div class="md:hidden">
+                        <i class="fa-solid fa-bars cursor-pointer" id="menubtn"></i>
+                        <i class="fa-solid fa-x cursor-pointer" style="display: none;" id="closebtn"></i>
+                    </div>
+                </div>
+                <div class="bg-blue-700 w-full h-mobh md:w-full md:h-pp">
+                <div class="flex flex-col gap-8 ml-8 mr-8 mt-10 md:flex md:flex-row md:gap-8 md:ml-8 md:mr-8 md:mt-36">
+                    <div class="w-full p-4 rounded-md md:w-pp bg-white border border-slate-200 md:p-8 md:rounded-md">
+                        <div class="w-96 h-56 md:w-3/5 md:h-40 bg-contain bg-center bg-no-repeat justify-center" style="background-image: url('../images/club-logo.png'); border-radius: 50%; margin: 0 auto;"></div>
+                        <h1 class="mt-4 font-bold text-center md:mt-4">Said Hassan Besa</h1>
+                        <div class="flex flex-col gap-4 md:flex-col md:gap-4 md:mt-8">
+                            <hr>
+                            <h1 class="text-primary text-mobilefont font-paragraph md:text-lg md:font-paragraph">BSCs</h1>
+                            <hr>
+                            <h1 class="text-primary text-mobilefont font-paragraph md:text-lg md:font-paragraph">PROGRAMMING</h1>
+                            <hr>
+                            <h1 class="text-primary text-mobilefont font-paragraph md:text-lg md:font-paragraph">T/DEG/2022/0001</h1>
+                            <hr>
+                            <button class="bg-blue-700 text-white w-1/2 h-10 rounded-md md:text-lg cursor-pointer">Update Profile</button>
+                        </div>
+                    </div>
+                    <div class="rounded-md md:w-w bg-white border border-slate-200 md:rounded-md">
+                    <h2 class="text-2xl p-2 md:text-2xl font-bold text-blue-700 leading-tight font-heading md:p-2">Personal Information</h2>
+                    <hr class="mt-2">
+                    <form class="grid grid-cols-1 gap-6 m-5 text-mobilefont md:grid md:grid-cols-2 md:gap-8 md:m-8 md:text-lg">
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Registration Number</label>
+                            <input type="text" class="bg-blue-700 h-11 rounded-md pl-2 focus:outline-none w-full  text-white">
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Full Name</label>
+                            <input type="text" class="bg-blue-700 h-11 rounded-md pl-2 focus:outline-none w-full  text-white">
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Course</label>
+                            <select class="bg-blue-700 h-11 rounded-md p-2 focus:outline-none w-full text-white">
+                                <option>BSCs</option>
+                                <option>BAGEN</option>
+                                <option>BIOLOGY ICT</option>
+                                <option>CHEMISTRY ICT</option>
+                                <option>STATISTICS ICT</option>
+                                <option>PHYSICS ICT</option>
+                            </select>
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Category</label>
+                            <select class="bg-blue-700 h-11 rounded-md p-2 focus:outline-none w-full  text-white">
+                                <option>Programming</option>
+                                <option>CyberSecurity</option>
+                                <option>Graphics Designing</option>
+                                <option>Networking</option>
+                                <option>Computer Maintanance</option>
+                                <option>Robotics and AI</option>
+                            </select>
+                        </div>
+                        <div class="md:flex md:flex-col md:gap-2">
+                            <label>Select Image File</label>
+                            <input type="file" class="bg-blue-700 text-white">
+
+                        </div>
+                        <div></div>
+                        <button class="bg-blue-700 h-12 rounded-md text-white w-24 md:text-lg">Save</button>
+                    </form>
+                    </div>
+                </div>
+                <div class="mt-8 ml-4 mr-4 p-2 rounded-md md:mt-16 md:ml-8 bg-blue-700 md:mr-8 md:rounded-sm text-white md:p-8">NOTE: For Any Missing or incorrect information please Contact, Mr: Mahuyemba</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    document.getElementById("menubtn").addEventListener('click',()=>{
+        document.getElementById("nav").style.display = 'block';
+        document.getElementById("menubtn").style.display = 'none';
+        document.getElementById("closebtn").style.display = 'block';
+    })
+    document.getElementById("closebtn").addEventListener('click',()=>{
+        document.getElementById("nav").style.display = 'none';
+        document.getElementById("menubtn").style.display = 'block';
+        document.getElementById("closebtn").style.display = 'none';
+    })
+</script>
+</html>

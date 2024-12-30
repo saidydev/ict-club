@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="!smoo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>User-Resources|MWECAU-ICT CLUB</title>
+</head>
+
+<body class="list-none font-paragraph">
+    <section class="text-mobilefont md:text-lg">
+        <div class="md:flex md:flex-row md:w-full">
+            <div id="nav"
+            class="hidden absolute h-screen md:visible md:w-nav md:h-screen md:fixed bg-slate-100 p-8 md:flex md:flex-col md:gap-4 md:border md:border-x-slate-100">
+            <div class="w-full h-20 md:w-full md:h-20 bg-contain bg-no-repeat justify-center"
+                style="background-image: url('../images/club-logo.png');"></div>
+                <div class="flex flex-col gap-8 mt-10 mb-10 md:flex md:flex-col md:gap-16 md:mt-20 md:mb-20">
+                    <a href="#">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-tachometer-alt text-slate-900"></i>
+                            <span
+                                class="text-slate-500 text-mobilefont font-paragraph md:text-lg md:font-paragraph">Dashboard</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/profile.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-user  text-slate-900"></i>
+                            <span
+                                class="text-slate-500 text-mobilefont font-paragraph md:text-lg md:font-paragraph">Profile</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/announcement.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-bullhorn  text-slate-900"></i>
+                            <span
+                                class="text-slate-500 text-mobilefont font-paragraph md:text-lg md:font-paragraph">Announcement</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/resources.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-book  text-slate-900"></i>
+                            <span
+                                class="text-slate-500 text-mobilefont font-paragraph md:text-lg md:font-paragraph">Resources</span>
+                        </li>
+                    </a>
+                    <a href="../userdashboard/forum.html">
+                        <li class="md:flex md:flex-row md:gap-4 items-center">
+                            <i class="fas fa-comments  text-slate-900"></i>
+                            <span
+                                class="text-slate-500 text-mobilefont font-paragraph md:text-lg md:font-paragraph">Discussion
+                                Forum</span>
+                        </li>
+                    </a>
+                </div>
+            <div class="">
+                <button class="bg-blue-700 text-white w-full h-10 rounded-md md:text-lg cursor-pointer">Log
+                    out</button>
+            </div>
+        </div>
+
+        <div class="flex flex-col w-full ml-2 md:flex md:flex-col md:ml-64">
+            <div class="flex flex-row justify-between p-4 md:flex md:flex-row md:justify-between md:p-8 border-b-2 border-slate-100">
+                <h2 class="text-2xl md:text-2xl font-bold text-primary leading-tight font-heading">Mr. Said Hassan Besa</h2>
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars cursor-pointer" id="menubtn"></i>
+                    <i class="fa-solid fa-x cursor-pointer" style="display: none;" id="closebtn"></i>
+                </div>
+            </div>
+                <div class="m-6 flex flex-col gap-4 md:m-16 md:flex md:flex-col md:gap-8">
+                    <h1 class="text-2xl md:text-3xl font-bold text-blue-700 leading-tight font-heading">Resource Panel</h1>
+                    <hr class="w-20 h-1 bg-blue-700">
+
+                <div class="p-4 rounded-sm md:mt-16 bg-primary md:rounded-sm text-white md:p-8">Currently no resource under this division has been posted.</div>
+                    <table border="1" class="">
+                        <tr class="bg-blue-700 h-14 text-left text-white">
+                            <th class="p-1 md:p-2">S/N</th>
+                            <th class="md:p-2">Resource Description</th>
+                            <th class="md:p-2">Action</th>
+                        </tr>
+                        <tr class="h-16 bg-slate-200">
+                            <td class="p-2">01.</td>
+                            <td class="p-2">How to Authenticate a Form using PHP as a Backend</td>
+                            <td class="p-2"><button class="bg-primary p-2 text-white rounded-md md:w-1/2">Download</button></td>
+                        </tr>
+                        <tr class="h-16 bg-slate-100">
+                            <td class="p-2">02.</td>
+                            <td class="p-2">Insert a Background Image with Linear Gradient</td>
+                            <td class="p-2"><button class="bg-primary p-2 text-white rounded-md md:w-1/2">Download</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</body>
+<script>
+    document.getElementById("menubtn").addEventListener('click',()=>{
+        document.getElementById("nav").style.display = 'block';
+        document.getElementById("menubtn").style.display = 'none';
+        document.getElementById("closebtn").style.display = 'block';
+    })
+    document.getElementById("closebtn").addEventListener('click',()=>{
+        document.getElementById("nav").style.display = 'none';
+        document.getElementById("menubtn").style.display = 'block';
+        document.getElementById("closebtn").style.display = 'none';
+    })
+</script>
+</html>
